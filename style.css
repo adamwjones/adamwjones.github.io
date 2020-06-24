@@ -1,0 +1,50 @@
+h1 {
+    text-align:center;
+  }
+
+.specialr {
+        color:red;
+}
+
+.specialb {
+    color:blue;
+}
+
+.specialg {
+    color:green;
+}
+
+.specialo {
+    color:orange
+}
+
+.bigtext {
+    font-size: 300%;
+}
+
+.tinytext {
+    font-size: 20%;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+.newfontfam{
+font-family: 'Courier New', Courier, monospace;
+}
+
+.onlyknowclasses{
+    font-size: 300%;
+    color:orange;
+    font-weight: bold;
+}
+
+.styledFont{
+    color:green;
+}
+
