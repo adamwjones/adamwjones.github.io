@@ -1,63 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
 <head>
-    <title>CSS Practice</title>
-    <link rel="stylesheet" href="style.css">
-<style>
-#styledImage {
-   border-width: thick; border-color: orange; border-style: solid;
-    }
-</style>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Horiseon</title>
 </head>
+
 <body>
 
-    <!-- Center -->
-    <h1>The Wonders of CSS!</h1>
+<!-- Start of Header / Top-of-paage Navigation Section -->
+    <header>
+        <h1>Hori<span class="seo">seo</span>n</h1>
 
-    <hr>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<!-- End of Header / Top-of-paage Navigation Section -->
 
-    <h2>Fun With Text!</h2>
+<!-- Start of Hero Image Section -->
+    <div class="hero" alt="People in an office looking at papers in the center of a desk"></div>
 
-    <!-- Change text color -->
-    <p class="specialr">This text is red.</p>
-    <p class="specialb">This text is blue.</p>
-    <p class="specialg">This text is green.</p>
+<!-- Start of Main Body Section -->
 
-    <!-- Change font-size -->
-    <p class="bigtext">This text is BIG!</p>
-    <p class="tinytext">This text is tiny...</p>
+    <main>
+        <section>
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A notebook with SEO written on it." />
+            <h2 id="search-engine-optimization">Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+            </p>
+        </section>
+        <section>
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="A laptop computer with someones hands on the keyboard with the word Reputation on the screen." />
+            <h2 id="online-reputation-management">Online Reputation Management</h2>
+            <p>
+                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+            </p>
+        </section>
+        <section>
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="A birds-eye view photo for people working around a table with random social media stickers all over the table." />
+            <h2 id="social-media-marketing">Social Media Marketing</h2>
+            <p>
+                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+            </p>
+        </section>
+    </main>
 
-    <!-- Center -->
-    <p class="centertext"> ~~This text is centered~~</p>
+<!-- End of Main Body Section -->
+<!-- Start of Aside Section -->
 
-    <!-- Bold -->
-    <p class="boldtext">If we have something important to say, we can make it bold!</p>
+    <summary>
+        <aside>
+            <h3>Lead Generation</h3>
+            <img src="./assets/images/lead-generation.png" />
+            <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+            </p>
+        </aside>
 
-    <!-- Change font -->
-    <p class="newfontfam">We can even change our font-family if we are feeling creative!</p>
+        <aside>
+            <h3>Brand Awareness</h3>
+            <img src="./assets/images/brand-awareness.png" />
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+            </p>
+        </aside>
 
-    <!-- Multiple attributes -->
-    <p class="onlyknowclasses"> Try combining multiple attributes to make big, orange, bold text!</p>
+        <aside>
+            <h3>Cost Management</h3>
+            <img src="./assets/images/cost-management.png"></img>
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+            </p>
+        </aside>
+    </summary>
 
-    <hr>
+<!-- End of Aside Section -->
+<!-- Start of Footer Section -->
 
-    <!-- Classes -->
-    <p class="styledFont">We can also apply the same style to multiple HTML elements.</p>
-    <p class="styledFont">Each one of these lines is within a different &ltp&gt tag, yet they all have the same styling.</p>
-    <p class="styledFont">That's because they are all a part of the same CSS class!</p>
-    <p class="styledFont">CSS classes let us define a style once and let us then apply it to multiple elements!</p>
-    <p class="styledFont">In your external CSS file, create a style for the class styledFont.</p>
-    <p class="styledFont">Notice how every time you change the class styledFont, all of the text changes.</p>
+    <footer>
+        <h2>Made with ❤️️ by Horiseon</h2>
+        <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </p>
+    </footer>
 
-    <hr>
-
-    <p>Just as classes can be used to style multiple elements, id's are used to style single, unique elements. Give the following image a border by adding style attributes to your external CSS file. (Hint: Remember to include a border width, style, and color.)</p>
-
-    <!-- Border & id -->
-
-    <img id="styledImage" alt="Picture of the CSS Icon" src="https://www.viewlike.us/wp-content/uploads/2013/04/css3-markup.jpg">
-
-    <hr>
-
+<!-- End of Footer Section -->
 </body>
+
 </html>
