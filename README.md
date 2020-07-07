@@ -1,20 +1,25 @@
-Week 1 Homework 
+Week 2 Homework
 By: Adam Jones
-Date: 6/30/20 
+Date: 7/7/20
 URL for Deployed Application: https://adamwjones.github.io
-URL of the GitHub Repo:
-
-User Story: AS A marketing agency, I WANT a codebase that follows accessibility standards, SO THAT our own site is optimized for search engines
-Acceptance Criteria: 
-
-GIVEN a webpage meets accessibility standards:
-1) WHEN I view the source code
-THEN I find semantic HTML elements
-2) WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-3) WHEN I view the image elements
-THEN I find accessible alt attributes
-4) WHEN I view the heading attributes
-THEN they fall in sequential order
-5) WHEN I view the title element
-THEN I find a concise, descriptive title
+Objective: Design and Develop a Responsive Portfolio 
+Requirements:
+(Complete) index.html
+(Complete) portfolio.html 
+(Complete) contact.html
+(Complete) Uses Bootstrap
+(Complete) A navbar
+(Complete) A responsive layout
+(Complete) Responsive images
+(Complete) Minimize the use of media queries - only has two in order to adjust the Navbar for a better UX in mobile mode and the Signature Card so that it looks visually more appealing in full screen. 
+(Complete) Use Bootstrap's grid system (containers, rows, and columns).
+(Complete) Use an HTML validation service to ensure that each page has valid HTML.
+(Complete) Functional, deployed application
+(Complete) GitHub repository with README describing the project
+(Complete) Navbar must be consistent on each page.
+(Complete) Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
+(Complete) All links must work.
+(Complete) Must use semantic html.
+(Complete) Each page must have valid and correct HTML. (use a validation service)
+(Complete) Must contain your personalized information. (bio, name, images, links to social media, etc.)
+(Complete) Must properly utilize Bootstrap components and grid system.
