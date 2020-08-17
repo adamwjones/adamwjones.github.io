@@ -1,29 +1,28 @@
-## Random Password Generator
-
+# Week 2 Homework
 * By: Adam Jones
-* Date: 7/14/20
-* Overview: Basic application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by introductory JavaScript code. Also attempted to design a clean and polished responsive UI. 
+* Date: 7/7/20
+* URL for Deployed Application: https://adamwjones.github.io
 
-## User Story
+## Objective
+* Design and Develop a Responsive Portfolio 
 
-* AS AN employee with access to sensitive data
-* I WANT to randomly generate a password that meets certain criteria
-* SO THAT I can create a strong password that provides greater security
-
-## Acceptance Criteria
-
-GIVEN I need a new, secure password:
-
-* (Complete) WHEN I click the button to generate a password, THEN I am presented with a series of prompts for password criteria
-
-* (Complete) WHEN prompted for password criteria, THEN I select which criteria to include in the password
-
-* (Complete) WHEN prompted for the length of the password, THEN I choose a length of at least 8 characters and no more than 128 characters
-
-* (Complete) WHEN prompted for character types to include in the password, THEN I choose lowercase, uppercase, numeric, and/or special characters
-
-* (Complete) WHEN I answer each prompt, THEN my input should be validated and at least one character type should be selected
-	
-* (Complete) WHEN all prompts are answered, THEN a password is generated that matches the selected criteria
-
-* (Complete) WHEN the password is generated, THEN the password is either displayed in an alert or written to the page
+## Requirements
+* (Complete) index.html
+* (Complete) portfolio.html 
+* (Complete) contact.html
+* (Complete) Uses Bootstrap
+* (Complete) A navbar
+* (Complete) A responsive layout
+* (Complete) Responsive images
+* (Complete) Minimize the use of media queries - only has two in order to adjust the Navbar for a better UX in mobile mode and the Signature Card so that it looks visually more appealing in full screen. 
+* (Complete) Use Bootstrap's grid system (containers, rows, and columns).
+* (Complete) Use an HTML validation service to ensure that each page has valid HTML.
+* (Complete) Functional, deployed application
+* (Complete) GitHub repository with README describing the project
+* (Complete) Navbar must be consistent on each page.
+* (Complete) Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
+* (Complete) All links must work.
+* (Complete) Must use semantic html.
+* (Complete) Each page must have valid and correct HTML. (use a validation service)
+* (Complete) Must contain your personalized information. (bio, name, images, links to social media, etc.)
+* (Complete) Must properly utilize Bootstrap components and grid system.
