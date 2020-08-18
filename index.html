@@ -53,8 +53,8 @@
         <div class="about-content">
             <div class="about-description">
                 <div class="signature">
-                    <h5 class="signature-heading">Adam W. Jones</h5> 
-                    <p class="m-0">Dream Big. Start Small. Stay Mindful.</p>
+                    <!-- <h5 class="signature-heading">My Arena</h5>  -->
+                    <p class="m-0">Dream Big. </br> Start Small.</br>  Stay Mindful.</p>
                 </div>
             </div>
             <div class="about-image">
@@ -196,11 +196,13 @@
 
                 </div>
                 
-                <a href="#myCarousel" class="carousel-control left carousel-control-prev" data-slide-to="prev">
+                <a class="left carousel-control carousel-control-prev" href="#myCarousel" data-slide="prev" onclick="$('#myCarousel').carousel('prev')">
                     <i class="fa fa-angle-left"></i>
                 </a>
-                <a href="#myCarousel" class="carousel-control right carousel-control-next" data-slide-to="next">
-                    <i class="fa fa-angle-right"></i>
+
+
+                <a class="right carousel-control carousel-control-next" href="#myCarousel" data-slide="next" onclick="$('#myCarousel').carousel('next')">
+                    <i class="fa fa-angle-right"></i>                
                 </a>
             </div>
         </div>
@@ -211,26 +213,13 @@
 <!--Start of Footer Section using Bootstrap grid system-->
 <footer class="py-5">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-5 col-lg-4 mb-5 mb-md-0">
-                <a href="index.html">
-                    <div class="signature">
-                        <h5 class="signature-heading">Adam W. Jones</h5> 
-                        <h3 class="signature-subhead">Portfolio</h3>
-                    </div>
-                </a>
-            </div>
-            <div class="col-12 col-md-5 col-lg-4 mb-5 mb-md-0">
-                <h5 class="text-uppercase">Connect with me</h5>
-                <ul class="list-unstyled text-small mb-0">
-                    <li>
-                        <a href="https://www.linkedin.com/in/adam-w-jones-6403bb3a/" class="text-muted">LinkedIn</a>
-                    </li>
-                    <li>
-                        <a href="mailto:adam.w.jones2@gmail.com" class="text-muted">adam.w.jones2@gmail.com</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="text-center">
+            <a href="index.html">
+                <div class="signature">
+                    <h5 class="signature-heading">Adam W. Jones</h5> 
+                    <h3 class="signature-subhead">Portfolio</h3>
+                </div>
+            </a>
         </div>
     </div>
 </footer>

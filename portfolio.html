@@ -69,7 +69,7 @@
                 <div class="carousel-inner">
                     <div class="item carousel-item active">
                         <div class="img-box-pro">
-                            <a href="https://manuelpierre.github.io/MoreFootballLessCovid/">
+                            <a href="https://manuelpierre.github.io/MoreFootballLessCovid/" target="_blank">
                                 <img src="images/MFLC.jpeg" alt="More Football Less COVID app">
                             </a>
                         </div>
@@ -79,17 +79,17 @@
 
                     <div class="item carousel-item">
                         <div class="img-box-pro">
-                            <a href="https://adamwjones.github.io/Weather-Dashboard/">
+                            <a href="https://adamwjones.github.io/Weather-Dashboard/" target="_blank">
                                 <img src="images/weather.jpeg" alt="Weather Dashboard app">
                             </a>
                         </div>
-                        <p class="testimonial">Individual coding project which retrieves data from the OpenWeather API and dynamically updates weather for cities of your choosing</p>
+                        <p class="testimonial">Individual coding project which retrieves data from the OpenWeather API and dynamically updates for selected cities</p>
                         <p class="customer"><strong>"Weather Dashboard app"</strong></p>
                     </div>
 
                     <div class="item carousel-item">
                         <div class="img-box-pro">
-                            <a href="https://adamwjones.github.io/Password-Generator/">
+                            <a href="https://adamwjones.github.io/Password-Generator/" target="_blank" target="_blank">
                                 <img src="images/password-screenshot.png" alt="Password Generator app">
                             </a>
                         </div>
@@ -99,7 +99,8 @@
 
                     <div class="item carousel-item">
                         <div class="img-box-pro">
-                            <img src="images/Onebody.png" alt="OneBody.ai UX design">
+                            <a href="images/Onebody.png" data-lightbox="photograph">
+                            <img src="images/Onebody.png" class="img-fluid" alt="OneBody.ai UX design"></a>
                         </div>
                         <p class="testimonial">Professional team UX design project aimed at reinventing CRM for fitness studios</p>
                         <p class="customer"><strong>"OneBody.ai UX design"</strong></p>
@@ -107,23 +108,23 @@
 
                     <div class="item carousel-item">
                         <div class="img-box-pro2">
-                            <img src="images/stacks2.png" alt="Stacks UX design">
+                            <a href="images/stacks2.png" data-lightbox="photograph">
+                            <img src="images/stacks2.png" class="img-fluid" alt="Stacks UX design"></a>
                         </div>
                         <p class="testimonial">Individual UX design project aimed at reinventing CRM for fitness studios while on the go</p>
                         <p class="customer"><strong>"Stacks UX design"</strong></p>
                     </div>
 
 
-                <!-- Need to incorporate this code into button -->
-                </div>
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev" onclick="$('#myCarousel').carousel('prev')">‹</a>
-<a class="right carousel-control" href="#myCarousel" data-slide="next" onclick="$('#myCarousel').carousel('next')">›</a>
 
-                <!-- <a href="#myCarousel" class="carousel-control left carousel-control-prev" data-slide-to="prev">
+                    <!-- Need to incorporate this code into button -->
+                </div>
+
+                <a class="left carousel-control carousel-control-prev" href="#myCarousel" data-slide="prev" onclick="$('#myCarousel').carousel('prev')">
                     <i class="fa fa-angle-left"></i>
                 </a>
-                <a href="#myCarousel" class="carousel-control right carousel-control-next" data-slide-to="next">
-                    <i class="fa fa-angle-right"></i> -->
+                <a class="right carousel-control carousel-control-next" href="#myCarousel" data-slide="next" onclick="$('#myCarousel').carousel('next')">
+                    <i class="fa fa-angle-right"></i>                
                 </a>
             </div>
         </div>
@@ -131,20 +132,14 @@
 </section>
 <!--End of Carousel Section-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--Start Main Section-->
+<div class="container py-5">
+    <div class="section-heading text-center">
+        <h1 class="heading-title">Summary</h1>
+    </div>
+    <p class="m-0">Possesses a diverse set of professional experiences across military leadership and logistics, financial services operations and technology consulting, and small business ownership and management. Has a broad educational background including marketing, finance, project management, user experience design, and full-stack web development. Is competent at designing prototypes in software such as Adobe XD, proficient in frontend web development, has a strong understanding of APIs and integration, and has led numerous project/product teams from start to finish.</p>
+</div>
+
 <div class="container py-5">
     <div class="section-heading text-center">
         <h1 class="heading-title">EY - Senior Manager - Present</h1>
@@ -170,26 +165,13 @@
 <!--Start of Footer Section using Bootstrap grid system-->
 <footer class="py-5">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-5 col-lg-4 mb-5 mb-md-0">
-                <a href="index.html">
-                    <div class="signature">
-                        <h5 class="signature-heading">Adam W. Jones</h5> 
-                        <h3 class="signature-subhead">Portfolio</h3>
-                    </div>
-                </a>
-            </div>
-            <div class="col-12 col-md-5 col-lg-4 mb-5 mb-md-0">
-                <h5 class="text-uppercase">Connect with me</h5>
-                <ul class="list-unstyled text-small mb-0">
-                    <li>
-                        <a href="https://www.linkedin.com/in/adam-w-jones-6403bb3a/" class="text-muted">LinkedIn</a>
-                    </li>
-                    <li>
-                        <a href="mailto:adam.w.jones2@gmail.com" class="text-muted">adam.w.jones2@gmail.com</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="text-center">
+            <a href="index.html">
+                <div class="signature">
+                    <h5 class="signature-heading">Adam W. Jones</h5> 
+                    <h3 class="signature-subhead">Portfolio</h3>
+                </div>
+            </a>
         </div>
     </div>
 </footer>
