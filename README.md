@@ -21,7 +21,7 @@
 * contact.html
 * Uses Bootstrap
 * A navbar
-* A responsive layout<img src="Assets/Images/Portfolio_Screenshot.png" width="400px"> 
+* A responsive layout
 * Responsive images
 * Minimize the use of media queries - only has two in order to adjust the Navbar for a better UX in mobile mode and the Signature Card so that it looks visually more appealing in full screen. 
 * Use Bootstrap's grid system (containers, rows, and columns).
@@ -37,5 +37,5 @@
 * Must properly utilize Bootstrap components and grid system
 
 ## Screenshot 
+<img src="images/Portfolio_Screenshot.png" width="400px"> 
 
-<img src="Assets/Images/Portfolio_Screenshot.png" width="400px"> 
